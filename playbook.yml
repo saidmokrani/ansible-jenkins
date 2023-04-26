@@ -1,7 +1,7 @@
 ---
 - name: install nginx
   hosts: 192.168.211.131
-  sudo: yes
+  become: yes
   roles:
     - nginx
 
